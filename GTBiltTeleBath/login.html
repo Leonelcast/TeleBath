@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/6.2.3/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/6.2.3/firebase-auth.js"></script>
+    <script defer src="/__/firebase/6.2.3/firebase-database.js"></script>
+    <script defer src="/__/firebase/6.2.3/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/6.2.3/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+
+  </head>
+  <body>
+  
+
+      <div class="row">
+          <div class="col-12"></div>
+          <div id="login_div">
+  
+              <form action="main.html" >
+                  <center><img src="bañoLogo.png" alt="logoTeleBathroom" height="75" width="75"></center>
+                  <h4>TeleBathroom</h4>
+                  <input class="name" type="email" placeholder="Email" id="email_field" required/>
+                  <input class="pw" type="password" placeholder="Contraseña" id="password_field" required />
+                  <li><a href="password_reset.html">¿Olvidaste tu contraseña?</a></li>
+                  <input class="button" type="submit" value="Inicia Sesion" id="buttonLog"/>
+              </form>
+          </div>
+      </div>
+  
+  
+      <script src="login.js"></script>
+      
+  
+  </body>
+</html>
